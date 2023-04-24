@@ -1,0 +1,3 @@
+Se puede usar para cualquier porción de interfaz. No
+necesariamente debe ser algo exclusivo de header y footer.
+

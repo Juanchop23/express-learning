@@ -1,0 +1,18 @@
+<%- include('partials/header'); %>
+
+    <h1>
+        <%= title %>
+    </h1>
+
+    <!-- Tengo acceso a isActive del arhivo home.js -->
+    <!-- No olvidar poner las llaves -->
+    <%= new Date() %>
+
+    <!-- El signo = sirve para que podamos recibir un valor -->
+    <ul>
+        <% for(let i = 0; i < users.length; i++) { %>
+            <li><%= users[i].id %> <%= users[i].name %> <%= users[i].lastname %></li>
+        <% } %>
+    </ul>
+
+<%- include('partials/footer'); %>

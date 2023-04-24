@@ -1,0 +1,3 @@
+Proyecto creado en base al curso de Fazt sobre ExpressJS.
+Link: https://www.youtube.com/watch?v=JmJ1WUoUIK4
+
